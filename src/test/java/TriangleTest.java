@@ -40,6 +40,12 @@ public class TriangleTest extends FluentTest {
       Triangle app = new Triangle(2,1,2);
       assertEquals(true, app.isTriangle3());
       }
+
+      @Test
+      public void newTriangle_ifTriangleIsEquilateral_true() {
+        Triangle app = new Triangle(2,2,2);
+        assertEquals(true, app.isEquilateral());
+        }
   }
 
 //     @Test

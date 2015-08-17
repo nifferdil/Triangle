@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="CoinCombinationsTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2015-08-17T18:59:09" hostname="epicodus-112.local" time="0.331">
+<testsuite name="CoinCombinationsTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2015-08-17T19:13:54" hostname="epicodus-112.local" time="0.325">
   <properties/>
   <testcase name="coinCombination_returnWordQuarterFor_25" classname="CoinCombinationsTest" time="0.003"/>
-  <testcase name="rootTest" classname="CoinCombinationsTest" time="0.252"/>
+  <testcase name="rootTest" classname="CoinCombinationsTest" time="0.25"/>
   <testcase name="coinCombination_returnWordCoinsFor_97" classname="CoinCombinationsTest" time="0.001"/>
-  <testcase name="centsGiven" classname="CoinCombinationsTest" time="0.061"/>
+  <testcase name="centsGiven" classname="CoinCombinationsTest" time="0.058"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[[Thread-4] INFO spark.webserver.SparkServer - == Spark has ignited ...
 [Thread-4] INFO spark.webserver.SparkServer - >> Listening on 0.0.0.0:4567
 [Thread-4] INFO org.eclipse.jetty.server.Server - jetty-9.0.2.v20130417
-[Thread-4] INFO org.eclipse.jetty.server.ServerConnector - Started ServerConnector@45249103{HTTP/1.1}{0.0.0.0:4567}
-Aug 17, 2015 11:59:10 AM com.gargoylesoftware.htmlunit.html.InputElementFactory createElementNS
+[Thread-4] INFO org.eclipse.jetty.server.ServerConnector - Started ServerConnector@7f55d890{HTTP/1.1}{0.0.0.0:4567}
+Aug 17, 2015 12:13:54 PM com.gargoylesoftware.htmlunit.html.InputElementFactory createElementNS
 INFO: Bad input type: "numbers", creating a text input
-Aug 17, 2015 11:59:10 AM com.gargoylesoftware.htmlunit.html.InputElementFactory createElementNS
+Aug 17, 2015 12:13:54 PM com.gargoylesoftware.htmlunit.html.InputElementFactory createElementNS
 INFO: Bad input type: "numbers", creating a text input
 [Test worker] INFO spark.webserver.SparkServer - >>> Spark shutting down ...
 [Test worker] INFO org.eclipse.jetty.server.Server - Graceful shutdown org.eclipse.jetty.server.Server@5858a275 by 
-[Test worker] INFO org.eclipse.jetty.server.ServerConnector - Stopped ServerConnector@45249103{HTTP/1.1}{0.0.0.0:4567}
+[Test worker] INFO org.eclipse.jetty.server.ServerConnector - Stopped ServerConnector@7f55d890{HTTP/1.1}{0.0.0.0:4567}
 [Test worker] INFO spark.webserver.SparkServer - done
 ]]></system-err>
 </testsuite>

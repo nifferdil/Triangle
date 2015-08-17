@@ -41,11 +41,36 @@ public class TriangleTest extends FluentTest {
       assertEquals(true, app.isTriangle3());
       }
 
-      @Test
-      public void newTriangle_ifTriangleIsEquilateral_true() {
-        Triangle app = new Triangle(2,2,2);
-        assertEquals(true, app.isEquilateral());
-        }
+    @Test
+    public void newTriangle_ifTriangleIsEquilateral_true() {
+      Triangle app = new Triangle(2,2,2);
+      assertEquals(true, app.isEquilateral());
+      }
+
+    @Test
+    public void newTriangle_ifTriangleIsIsosceles1_true() {
+      Triangle app = new Triangle(2,2,1);
+      assertEquals(true, app.isIsosceles());
+      }
+
+    @Test
+    public void newTriangle_ifTriangleIsIsosceles2_true() {
+      Triangle app = new Triangle(2,1,2);
+      assertEquals(true, app.isIsosceles2());
+      }
+
+    @Test
+    public void newTriangle_ifTriangleIsIsosceles3_true() {
+      Triangle app = new Triangle(1,2,2);
+      assertEquals(true, app.isIsosceles3());
+      }
+
+    @Test
+    public void newTriangle_ifTriangleIsScalene_true() {
+      Triangle app = new Triangle(1,2,3);
+      assertEquals(true, app.isScalene());
+      }
+
   }
 
 //     @Test

@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TriangleTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2015-08-17T18:59:10" hostname="epicodus-112.local" time="0.021">
+<testsuite name="TriangleTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2015-08-17T19:13:54" hostname="epicodus-112.local" time="0.05">
   <properties/>
+  <testcase name="newTriangle_ifTriangleIsIsosceles1_true" classname="TriangleTest" time="0.001"/>
+  <testcase name="newTriangle_ifTriangleIsIsosceles2_true" classname="TriangleTest" time="0.001"/>
+  <testcase name="newTriangle_ifTriangleIsIsosceles3_true" classname="TriangleTest" time="0.0"/>
+  <testcase name="newTriangle_ifTriangleIsScalene_true" classname="TriangleTest" time="0.001"/>
   <testcase name="newTriangle_instantiatesCorrectly" classname="TriangleTest" time="0.001"/>
-  <testcase name="newTriangle_ifTriangleIsEquilateral_true" classname="TriangleTest" time="0.001"/>
-  <testcase name="newTriangle_ifIsTriangle1_true" classname="TriangleTest" time="0.001"/>
-  <testcase name="newTriangle_ifIsTriangle2_true" classname="TriangleTest" time="0.0"/>
-  <testcase name="newTriangle_ifIsTriangle3_true" classname="TriangleTest" time="0.001"/>
+  <testcase name="newTriangle_ifTriangleIsEquilateral_true" classname="TriangleTest" time="0.0"/>
+  <testcase name="newTriangle_ifIsTriangle1_true" classname="TriangleTest" time="0.0"/>
+  <testcase name="newTriangle_ifIsTriangle2_true" classname="TriangleTest" time="0.001"/>
+  <testcase name="newTriangle_ifIsTriangle3_true" classname="TriangleTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[[Thread-17] INFO spark.webserver.SparkServer - == Spark has ignited ...
 [Thread-17] INFO spark.webserver.SparkServer - >> Listening on 0.0.0.0:4567
 [Thread-17] INFO org.eclipse.jetty.server.Server - jetty-9.0.2.v20130417
-[Thread-17] INFO org.eclipse.jetty.server.ServerConnector - Started ServerConnector@71ee1e1a{HTTP/1.1}{0.0.0.0:4567}
+[Thread-17] INFO org.eclipse.jetty.server.ServerConnector - Started ServerConnector@63743fe6{HTTP/1.1}{0.0.0.0:4567}
 [Test worker] INFO spark.webserver.SparkServer - >>> Spark shutting down ...
-[Test worker] INFO org.eclipse.jetty.server.Server - Graceful shutdown org.eclipse.jetty.server.Server@76f3b5a9 by 
-[Test worker] INFO org.eclipse.jetty.server.ServerConnector - Stopped ServerConnector@71ee1e1a{HTTP/1.1}{0.0.0.0:4567}
+[Test worker] INFO org.eclipse.jetty.server.Server - Graceful shutdown org.eclipse.jetty.server.Server@6d339dac by 
+[Test worker] INFO org.eclipse.jetty.server.ServerConnector - Stopped ServerConnector@63743fe6{HTTP/1.1}{0.0.0.0:4567}
 [Test worker] INFO spark.webserver.SparkServer - done
 ]]></system-err>
 </testsuite>

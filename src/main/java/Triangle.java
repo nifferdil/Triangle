@@ -27,7 +27,7 @@ public int getSide2() {
 
 public int getSide3() {
       return mSide3;
-    }
+  }
 
 public boolean isTriangle1() {
   return mSide1 + mSide2 >= mSide3;
@@ -43,7 +43,23 @@ public boolean isTriangle3() {
 
 public boolean isEquilateral() {
     return mSide1 == mSide2 && mSide1 == mSide3 && mSide2 == mSide3;
-    }
+  }
+
+public boolean isIsosceles() {
+    return mSide1 == mSide2 && mSide1 != mSide3;
+  }
+
+public boolean isIsosceles2() {
+    return mSide1 == mSide3 && mSide1 != mSide2;
+  }
+
+public boolean isIsosceles3() {
+    return mSide2 == mSide3 && mSide2 != mSide1;
+  }
+
+public boolean isScalene() {
+    return mSide1 != mSide2 && mSide1 != mSide3 && mSide2 != mSide3;
+  }
 
 }
 

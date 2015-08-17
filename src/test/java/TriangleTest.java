@@ -22,6 +22,24 @@ public class TriangleTest extends FluentTest {
       Triangle app = new Triangle(2,2,2);
       assertEquals(true, app instanceof Triangle);
     }
+
+    @Test
+    public void newTriangle_ifIsTriangle1_true() {
+      Triangle app = new Triangle(2,2,1);
+      assertEquals(true, app.isTriangle1());
+    }
+
+    @Test
+    public void newTriangle_ifIsTriangle2_true() {
+      Triangle app = new Triangle(1,2,2);
+      assertEquals(true, app.isTriangle2());
+    }
+
+    @Test
+    public void newTriangle_ifIsTriangle3_true() {
+      Triangle app = new Triangle(2,1,2);
+      assertEquals(true, app.isTriangle3());
+      }
   }
 
 //     @Test

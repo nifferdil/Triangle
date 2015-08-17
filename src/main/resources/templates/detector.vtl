@@ -1,4 +1,10 @@
 <h1>Triangles! </h1>
- <h2>The type of triangle you have is:</h2>
-
-  <h3>$triangle </h3>
+ #if($myTriangle.isEquilateral())
+    <h3 class="well">You have an equilateral triangle!</h3>
+#elseif($myTriangle.isIsosceles())
+    <h3 class="well">You have an isosceles triangle!</h3>
+#elseif($myTriangle.isScalene())
+    <h3 class="well">You have a scalene triangle!</h3>
+#else
+    <h3 class="well">You do not have a triangle!</h3>
+#end
